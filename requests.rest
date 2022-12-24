@@ -1,0 +1,29 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2F1cmFiaCIsImlhdCI6MTY3MTg3NjU2Nn0.fUdWDrhD5hG7CbNvYnIPDahhZvF4Z1sVXMTdSFLeJsU
+
+###
+
+
+POST http://localhost:4000/login
+Content-Type : application/json
+
+{
+    "username": "Wubbies"
+}
+
+###
+POST http://localhost:3000/db
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiV3ViYnMiLCJpYXQiOjE2NzE4NzY3NDV9.Vf73BRwQRhGoexOPQqRv4OmHXLMNOw8A176ib36SqRY
+
+{
+    "name": "Saurabh Singh",
+    "email": "mymail123@gmail.com",
+    "phone": "7868682958",
+    "linkedinURL": "linkedin.com/in/newaccount"
+}
+
+###
+GET http://localhost:3000/db
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiV3ViYmllcyIsImlhdCI6MTY3MTg3ODYxNX0.r8eNhxbhBESW6jafbXcDtj481fLm8N7Kcz8RuDY0HJY
