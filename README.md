@@ -1,4 +1,9 @@
 # Contact Management
+### Servers
+
+There are two servers
+* server.js </t> lmao
+* serverAuth.js
 
 ### API functions
 
