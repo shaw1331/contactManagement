@@ -3,7 +3,7 @@
 
 There are two servers
 * server.js     -   connected to DB
-* serverAuth.js -   authorization 
+* serverAuth.js -   authorization (for easy horizontal scaling)
 
 ### API functions
 
