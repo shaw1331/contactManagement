@@ -2,7 +2,7 @@
 
 ## API functions</u>
 
-<u> # Endpoint </u></br>
+### Endpoint</br>
 1. '/posts' (for token generation)</br>
 * POST
 ```sh
