@@ -2,6 +2,11 @@
 
 API functions
 
+Route - '/posts' (for token generation)
+  POST
+  
+  ![image](https://user-images.githubusercontent.com/76247430/209433421-682d5444-b536-40ec-ba92-e434bbe0487d.png)
+
 
 Route - '/db' (requires authorization)
 
