@@ -4,7 +4,7 @@
 
 <u>**Endpoint**</u></br>
 1. '/posts' (for token generation)</br>
-* ##POST
+##POST
 ```sh
 POST http://localhost:4000/login
 Content-Type : application/json
