@@ -1,6 +1,6 @@
 # Contact Management
 
-## API functions</u>
+**API functions</u>
 
 ### Endpoint</br>
 1. '/posts' (for token generation)</br>
