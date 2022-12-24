@@ -2,8 +2,8 @@
 ### Servers
 
 There are two servers
-* server.js &emsp lmao
-* serverAuth.js
+* server.js     -   connected to DB
+* serverAuth.js -   authorization 
 
 ### API functions
 
