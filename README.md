@@ -1,10 +1,10 @@
-<h1>Contact Management</h1> 
+# Contact Management
 
-<u>**API functions</u>**
+## API functions</u>
 
-<u>**Endpoint**</u></br>
+<u> # Endpoint </u></br>
 1. '/posts' (for token generation)</br>
-* ## POST
+* POST
 ```sh
 POST http://localhost:4000/login
 Content-Type : application/json
