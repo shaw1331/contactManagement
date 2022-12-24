@@ -5,8 +5,15 @@
 <u>**Endpoint**</u></br>
 1. '/posts' (for token generation)</br>
 * POST
-  
-    ![image](https://user-images.githubusercontent.com/76247430/209433421-682d5444-b536-40ec-ba92-e434bbe0487d.png)
+```sh
+POST http://localhost:4000/login
+Content-Type : application/json
+
+{
+    "username": "<name>"
+}
+```
+  ![image](https://user-images.githubusercontent.com/76247430/209433421-682d5444-b536-40ec-ba92-e434bbe0487d.png)
 
 
 2. '/db' (requires authorization)
